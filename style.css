@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.card{
+    border: 2px solid white;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 20px;
+    color: white;
+}
+p{
+    margin: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.scroll-indicator {
+    height: 5px;
+    width: calc(100% - 6em);
+    position: fixed;
+    top: 10px;
+    left: 3em;
+    border-radius: 3px;
+  }
+  
+  .scroll-indicator .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    background:  #21d4fd;
+    transition: width 0.1s;
+  }
